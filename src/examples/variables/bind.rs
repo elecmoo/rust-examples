@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn bind() {
     let an_integer = 1u32;
     let a_boolean = true;
@@ -14,5 +15,14 @@ fn bind() {
     let _unused_variable = 3u32;
 
     let _noisy_unused_variable = 2u32;
-    // 改正 ^ 在变量名前加上下划线以消除警告
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_bind() {
+        bind();
+    }
 }

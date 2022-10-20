@@ -1,6 +1,8 @@
+mod borrowed;
 mod conversion;
 mod custom_type;
 mod flow_control;
+mod functions;
 mod hello_world;
 mod primitives;
 mod types;

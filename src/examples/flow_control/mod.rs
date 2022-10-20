@@ -1,7 +1,10 @@
 mod do_match;
 mod for_and_range;
 mod if_else;
+mod if_let;
+mod match_bind;
 mod match_destruct;
 mod match_guard;
 mod my_loop;
 mod my_while;
+mod while_let;

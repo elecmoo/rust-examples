@@ -4,6 +4,7 @@ mod custom_type;
 mod flow_control;
 mod functions;
 mod hello_world;
+mod modules;
 mod primitives;
 mod types;
 mod variables;

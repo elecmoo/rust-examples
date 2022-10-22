@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 mod my {
     pub struct OpenBox<T> {
         // content是公共的，可以直接创建

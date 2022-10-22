@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn mutable() {
     let _immutable_binding = 1;
     let mut mutable_binding = 1;

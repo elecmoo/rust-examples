@@ -7,5 +7,6 @@ mod hello_world;
 mod modules;
 mod primitives;
 mod scoping_rules;
+mod traits;
 mod types;
 mod variables;
